@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Marklive</title>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <link rel="stylesheet" type="text/css" href="./highlight.css"/>
+        <link rel="stylesheet" type="text/css" href="./markdown.css"/>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div id="content"></div>
+            </div>
+        </main>
+        <nav>
+            <div class="container">
+                <span id="menu-title" class="nav-left">Marklive</span>
+                <ul class="nav-right">
+                    <li>
+                        <a href="#" onclick="prev()">Previous</a>
+                    </li>
+                    <li class="separator"></li>
+                    <li>
+                        <a href="#" onclick="next()">Next</a>
+                    </li>
+                    <li class="separator"></li>
+                    <li class="dropdown">
+                        <a id="menu-open" class="dropdown-toggle" href="#">Files</a>
+                        <ul id="menu-filelist" class="dropdown-menu"></ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <footer id="status"></footer>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script>
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    showMathMenu: false
+});
+        </script>
+        <script src="index.js"></script>
+    </body>
+</html>
