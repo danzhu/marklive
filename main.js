@@ -13,7 +13,7 @@ app.on('window-all-closed', function () {
 app.on('ready', function () {
     var dir = process.argv[2];
     if (!dir)
-        dir = __dirname;
+        dir = process.cwd();
 
     mainWindow = new BrowserWindow({ autoHideMenuBar: true });
 
