@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: #C4C7CB;
     background-color: #1D1E1F;
-    font-size: 12pt;
+    font-size: 9pt;
 }
 
 nav {
@@ -30,6 +30,7 @@ main {
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 10px;
     overflow: auto;
 }
 
