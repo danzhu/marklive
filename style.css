@@ -3,6 +3,7 @@ body {
     color: #C4C7CB;
     background-color: #1D1E1F;
     font-size: 9pt;
+    font-family: "DejaVu Sans";
 }
 
 nav {
@@ -12,7 +13,7 @@ nav {
     left: 0;
     right: 0;
     background-color: #353637;
-    font-family: Monospace;
+    font-family: "DejaVu Sans Mono";
 }
 
 nav ul {
